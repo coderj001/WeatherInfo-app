@@ -1,0 +1,54 @@
+header{
+    background-color: #3AFE00;
+    padding-top: 2px;
+}
+#Heading{
+    
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    padding-left: 10px;
+}
+#NxtHeading{
+    font-family: 'Charm', cursive;
+    color: #11AEF9;
+    font-size-adjust: auto;
+}
+#icon{
+    padding-left: 20px;
+}
+#weatherShow{
+    background-color: aquamarine;
+}
+#shower{
+    text-align: center; 
+}
+#city,#state,#country{
+    color: blue;
+    font-size: 20px;
+        padding: 5px;
+    padding-top: 16px;
+    font-family: 'Charm', cursive;
+font-family: 'Roboto Slab', serif;
+}
+#temp{
+    background-color: blue;
+    color: wheat;
+    font-size: 50px;
+    border-radius: 100px;
+  padding: 2px; 
+  width: 200px;
+  height: 150px; 
+}
+#lat,#lon,#hum{
+    color: #0E0A99;
+    font-size: 18px;
+    font-family: 'Charm', cursive;
+font-family: 'Roboto Slab', serif;
+}
+#rol{
+    color: ;
+    font-size: 20px;
+    font-family: 'Charm', cursive;
+font-family: 'Roboto Slab', serif;
+}

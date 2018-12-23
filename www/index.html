@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Web Weather Application</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Charm|Roboto+Slab" rel="stylesheet">
+<body>
+    <div id="container">
+        <header>
+            <div id="title"><spam id="Heading">Weather Application</spam>
+            <spam id="icon"><img src="/img/weather.png"></spam>
+            <br>
+            <spam id="NxtHeading">This Application made from JSON api</spam>
+            </div>
+        </header>
+        <main>
+           <div id="serachBox">
+            <input id="search" value="Kolkata"><button onclick="disp()">search</button><br>
+            <span id="Example">Ex: Enter the name of the city.</span>
+            </div>
+            <div id="weatherShow">
+                <section id="shower">
+                    <div>
+                        <spam id="city"></spam>
+                        <samp id="state"></samp>
+                        <spam id="country"></spam>
+                        <br>
+                        <spam id="rol">Latitude:
+                        <spam id="lat"></spam>
+                        </spam>
+                        <br>
+                        <spam id="rol">Longitude:
+                        <spam id="lon"></spam>
+                        </spam>
+                        <br>
+                        <spam><img src="//cdn.apixu.com/weather/64x64/night/143.png" alt=""></spam>
+                        <br>
+                        <samp id="rol">Temperture:</samp>
+                        <br><br>
+                        <samp id="temp"></samp>
+                        <br><br>
+                        <spam id="rol">Humidity:
+                        <spam id="hum"></spam>
+                        </spam>
+                    </div>
+                </section>
+            </div>
+            
+        </main>
+        <footer>
+            <p><small>This application is made from JSON API.Provided by the apixu website.</small></p>
+        </footer>
+        
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
