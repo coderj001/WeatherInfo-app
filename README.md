@@ -23,3 +23,4 @@
 		
 ### This app is not avalible in any application store so download link provided below:
 		
+		https://drive.google.com/open?id=1KC2wABzIIv6bj-6ABYyGivzzMd4pe7wM
