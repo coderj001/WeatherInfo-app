@@ -1,54 +1,56 @@
-header{
-    background-color: #3AFE00;
-    padding-top: 2px;
+#thisHeader{
+    background: #1989e5;
+    font-size: 20px;
+    padding: 5px;
 }
-#Heading{
-    
-    font-size: 25px;
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
-    padding-left: 10px;
+#heading{
+    font-size:30px;
+    padding: 10px;
 }
-#NxtHeading{
-    font-family: 'Charm', cursive;
-    color: #11AEF9;
-    font-size-adjust: auto;
+#thisSearchbox{
+    padding: 10px;
+}
+html{
+    background: #daf243;
+}
+#searchButton{
+    padding-right: 5px;
+    background-color: black;
+    color: antiquewhite;
+    font: bold;
+    font-size: 20px;
+}
+#searchButton:active{
+    padding-right: 5px;
+    background-color: antiquewhite;
+    color: black;
+    font: bold;
+    font-size: 20px;
+}
+#searchBox{
+    height: 20px;
+    width: 200px;
+}
+footer{
+    background-color: #0bed40;
+}
+#container{
+    background-color: gray;
+    text-align: center;
+}
+#titleTemperatureC,#titleTemperatureF,#titleHumidity,#thisLocation,#titleLatitude,#titleLongitude,#Text{
+    font-size: 21px;
+    font-family: fantasy;
+    color: red;
+    padding:6px;
 }
 #icon{
-    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+/*    background-color: ;*/
 }
-#weatherShow{
-    background-color: aquamarine;
-}
-#shower{
-    text-align: center; 
-}
-#city,#state,#country{
-    color: blue;
+#showTemperatureC,#showTemperatureF,#showHumidity,#showLatitude,#showLongitude{
     font-size: 20px;
-        padding: 5px;
-    padding-top: 16px;
-    font-family: 'Charm', cursive;
-font-family: 'Roboto Slab', serif;
-}
-#temp{
-    background-color: blue;
-    color: wheat;
-    font-size: 50px;
-    border-radius: 100px;
-  padding: 2px; 
-  width: 200px;
-  height: 150px; 
-}
-#lat,#lon,#hum{
-    color: #0E0A99;
-    font-size: 18px;
-    font-family: 'Charm', cursive;
-font-family: 'Roboto Slab', serif;
-}
-#rol{
-    color: ;
-    font-size: 20px;
-    font-family: 'Charm', cursive;
-font-family: 'Roboto Slab', serif;
+    font-family: cursive;
+    
 }

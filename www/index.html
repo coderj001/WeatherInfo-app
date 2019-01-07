@@ -1,62 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Web Weather Application</title>
-</head>
-<link rel="stylesheet" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Charm|Roboto+Slab" rel="stylesheet">
-<body>
-    <div id="container">
-        <header>
-            <div id="title"><spam id="Heading">Weather Application</spam>
-            <spam id="icon"><img src="/img/weather.png"></spam>
-            <br>
-            <spam id="NxtHeading">This Application made from JSON api</spam>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Mobile Weather Forcast Applications</title>
+    </head>
+    <body onload="onLoad()">
+    <link rel="stylesheet" href="index.css">
+
+        <div id="thisHeader">
+<!--            <div id="thisLogo" style="float: right">-->
+               <span id="heading">Weather Application</span>
+                <img id="logo" src="img/weather.png" height="32" width="32"/>
+                <br>
+<!--            </div>-->
+<!--            <div id="heading" style="float: left">-->
+                <small>This application is made from AJAX</small>
+<!--            </div>-->
+        </div>
+        <div id="thisSearchbox">
+            <input type="text" id="searchBox" value="Kolkata"><button id="searchButton">SEARCH</button>
+        </div>
+        <div id="container" hidden="true">
+                <div id="thisTemperatureC">
+                    <span id="titleTemperatureC">Temperature in Centigrade: </span>
+                    <span id="showTemperatureC"></span>
+                </div>
+            <div id="thisTemperatureF">
+                <span id="titleTemperatureF">Temperature in Fahrenheit: </span>
+                <span id="showTemperatureF"></span>
             </div>
-        </header>
-        <main>
-           <div id="serachBox">
-            <input id="search" value="Kolkata"><button onclick="disp()">search</button><br>
-            <span id="Example">Ex: Enter the name of the city.</span>
+            <div id="thisHumidity">
+                <span id="titleHumidity">Humidity: </span>
+                <span id="showHumidity"></span>
             </div>
-            <div id="weatherShow">
-                <section id="shower">
-                    <div>
-                        <spam id="city"></spam>
-                        <samp id="state"></samp>
-                        <spam id="country"></spam>
-                        <br>
-                        <spam id="rol">Latitude:
-                        <spam id="lat"></spam>
-                        </spam>
-                        <br>
-                        <spam id="rol">Longitude:
-                        <spam id="lon"></spam>
-                        </spam>
-                        <br>
-                        <spam><img src="//cdn.apixu.com/weather/64x64/night/143.png" alt=""></spam>
-                        <br>
-                        <samp id="rol">Temperture:</samp>
-                        <br><br>
-                        <samp id="temp"></samp>
-                        <br><br>
-                        <spam id="rol">Humidity:
-                        <spam id="hum"></spam>
-                        </spam>
-                    </div>
-                </section>
+            <div id="thisImage">
+                <img src="#" alt="" id="icon">
+                <br>
+                <span id="Text"></span>
             </div>
-            
-        </main>
-        <footer>
-            <p><small>This application is made from JSON API.Provided by the apixu website.</small></p>
-        </footer>
-        
-    </div>
-</body>
-<script src="index.js"></script>
+            <div id="thisLocation">
+                <span id="location"></span>
+            </div>
+            <div id="thisLatitude">
+                <span id="titleLatitude">Latitude: </span>
+                <span id="showLatitude"></span>
+            </div>
+            <div id="thisLongitude">
+                <span id="titleLongitude">Longitude: </span>
+                <span id="showLongitude"></span>
+            </div>
+        </div>
+
+    <footer>
+        <p>Creater by: Raju Ghorai</p>
+        <p>Github Link: <a href="http://www.github.com/coderj001">
+            github.com/coderj001</a>.</p>
+    </footer>
+        <script src="index.js"></script>
+        <!--<script type="text/javascript" src="cordova.js"></script>-->
+    </body>
 </html>
