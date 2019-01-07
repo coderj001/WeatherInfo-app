@@ -23,8 +23,7 @@
 		
 ### This app is not avalible in any application store so download link provided below:
 		
-		https://drive.google.com/open?id=1KC2wABzIIv6bj-6ABYyGivzzMd4pe7wM
-
+		http://www.mediafire.com/file/yqx836tk68y8ca8/WeatherF-release.3344052.5.apk/file
 ## Here Is Some Preview Images:
 <img src='/IMG-20190107-WA0000%5B1725%5D.jpg' width='300' height='520'>
 <img src='/Screenshot_20190107-110349%5B1727%5D.png' width='300' height='520'>
