@@ -26,6 +26,7 @@
 		https://drive.google.com/open?id=1KC2wABzIIv6bj-6ABYyGivzzMd4pe7wM
 
 ## Here Is Some Preview Images:
+<img src='/IMG-20190107-WA0000%5B1725%5D.jpg' width='300' height='520'>
 <img src='/Screenshot_20190107-110349%5B1727%5D.png' width='300' height='520'>
 <img src='/Screenshot_20190107-110420%5B1728%5D.png' width='300' height='520'>
 <img src='/Screenshot_20190107-110442%5B1726%5D.png' width='300' height='520'>
