@@ -1,7 +1,7 @@
 
 # Weather Info Application
 
-## I Raju Ghorai is the creater of this application
+## I Raju Ghorai, is the creater of this application
 
 ## How did i Make This app :
 		
